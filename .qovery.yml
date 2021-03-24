@@ -1,15 +1,11 @@
 ---
 application:
-  name: "nodejs-postgresql"
-  project: "test1"
+  name: "nodejs-posgresql-deploy"
+  project: "test"
   organization: "QoveryCommunity"
-databases:
-- type: "POSTGRESQL"
-  name: "quotes"
-  version: "11"
 routers:
-- name: "main-nodejs-postgresql"
+- name: "main-nodejs-posgresql-deploy"
   routes:
-  - application_name: "nodejs-postgresql"
+  - application_name: "nodejs-posgresql-deploy"
     paths:
     - "/*"
